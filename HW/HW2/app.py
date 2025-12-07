@@ -5,6 +5,7 @@ from utils import clean_seq, chunk_lines
 from align import compute_alignment, alignment_stats
 
 # ---------------- Streamlit App ----------------
+st.image('brain.jpg',width=150)
 st.set_page_config(page_title="Pairwise Sequence Aligner", layout="wide")
 st.title("Pairwise Sequence Aligner")
 
@@ -88,6 +89,8 @@ if align_clicked:
                     },
                     title="Per-position match profile",
                 )
+                st.plotly_chart(fig, use_container_width=True)
+                fig = px.histogram(vals, nbins=10, title="Distribution of Match$
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("No comparable (non-gap) positions to plot.")
