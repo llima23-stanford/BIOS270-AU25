@@ -90,7 +90,7 @@ if align_clicked:
                     title="Per-position match profile",
                 )
                 st.plotly_chart(fig, use_container_width=True)
-                fig = px.histogram(vals, nbins=10, title="Distribution of Match$
+                fig = px.histogram(vals, nbins=10, title="Distribution of Match Values (Match=1, Mismatch=0)")
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("No comparable (non-gap) positions to plot.")
