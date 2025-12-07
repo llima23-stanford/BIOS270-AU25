@@ -5,7 +5,7 @@ from utils import clean_seq, chunk_lines
 from align import compute_alignment, alignment_stats
 
 # ---------------- Streamlit App ----------------
-st.image('brain.jpg',width=150)
+st.image('https://engineering.berkeley.edu/wp-content/uploads/2025/05/iStock-1933557318.jpg',width=150)
 st.set_page_config(page_title="Pairwise Sequence Aligner", layout="wide")
 st.title("Pairwise Sequence Aligner")
 
