@@ -92,6 +92,6 @@ Then, copy and paste your **Streamlit Cloud URL** below
 
 ```
 Streamlit App URL:
-https://____________________________________
+https://bios270-au25-iborvh35gwwvpexcqmdnzc.streamlit.app/
 ```
 Submit the `HW2.md` URL to **Canvas**.
